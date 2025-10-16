@@ -73,7 +73,6 @@ impl<T> LinkedList<T> {
     where
 		T: PartialOrd + Clone,
 	{
-		//TODO
         let mut result = LinkedList::<T>::new();
 		let mut index_a = 0;
         let mut index_b = 0;
